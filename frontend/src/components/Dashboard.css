@@ -1,0 +1,46 @@
+/* Dashboard.css */
+
+#filter-container {
+    margin-bottom: 20px;
+}
+
+#filter-options {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.filter-button.active {
+    background-color: #0056b3;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
